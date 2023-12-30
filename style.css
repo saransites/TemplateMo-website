@@ -889,7 +889,7 @@ footer ul li a:hover{
         flex-basis: 25%;
     }
 }
-@media screen and (470px<width<799px) {
+@media screen and (520px<width<799px) {
     .hover--card,.hover--card--two,.hover--card--three{
         width:100%;
         height:50vh;
@@ -910,9 +910,12 @@ footer ul li a:hover{
     .flip--card .flip--card--container,.flip--card--two .flip--card--container--two,.flip--card--three .flip--card--container--three{
         height:70vh;
     }
-}
-@media screen and (max-width:469px) {
     .header--image{
-        margin-top:14%;
+        margin-top:22%;
+    }
+}
+@media screen and (max-width:520px) {
+    .header--image{
+        margin-top:22%;
     }
 }
