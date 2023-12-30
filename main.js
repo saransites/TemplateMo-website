@@ -8,7 +8,7 @@ bar.addEventListener('click',()=>{
         erase.style.display="block"
         ul.classList.add("open")
         ul.classList.add("sticky")
-
+        ul.style.display="block"
     }
 })
 erase.addEventListener("click",()=>{
@@ -16,4 +16,5 @@ erase.addEventListener("click",()=>{
         erase.style.display="none"
         bar.style.visibility="visible"
         ul.style.backgroundColor="white"
+        ul.style.display="none"
 })

@@ -68,7 +68,7 @@ input[type="radio"]{
     border-radius:15px;
     line-height: 1;
     height:fit-content;
-    transform:translateY(45px);
+    transform:translateY(51px);
     transition:transform 0.5s;
     padding:20px 5px;
 }
@@ -84,8 +84,7 @@ nav ul{
     padding:10px;
     border-radius:15px;
     z-index: 20;
-    line-height: 0;
-    transform:scale(0.8);
+    display:none;
 }
 nav ul li{
     padding:5px;
@@ -106,11 +105,10 @@ nav ul li a{
 
 }
  .header--image{
-    margin:5% 0 3% 0;
+    margin:7% 0 3% 0;
     display: flex;
     gap:10px;
     align-items: center;
-    z-index: 18;
 }
 .header--image .img{
     background:url("./images/smilingman.jpg");
@@ -305,7 +303,7 @@ tr,th,td{
 }
 .hover--card{
     width:100%;
-    height:38vh;
+    height:35vh;
     background:rgb(193, 192, 192);
     padding:20px;
     border-radius:20px;
@@ -381,7 +379,7 @@ tr,th,td{
 }
 .hover--card--two{
     width:100%;
-    height:38vh;
+    height:35vh;
     background:rgb(193, 192, 192);
     padding:20px;
     border-radius:20px;
@@ -456,7 +454,7 @@ tr,th,td{
 }
 .hover--card--three{
     width:100%;
-    height:38vh;
+    height:35vh;
     background:rgb(193, 192, 192);
     padding:20px;
     border-radius:20px;
@@ -769,7 +767,7 @@ footer ul li a:hover{
     }
     nav ul{
         width:90%;
-        height:13dvh;
+        height:15dvh;
         display:block;
         display:flex;
         justify-content: center;
