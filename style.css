@@ -81,13 +81,13 @@ nav ul{
     transition:transform 0.5s;
     color:#000000;
     background-color: transparent;
-    padding:10px;
+    padding:1px;
     border-radius:15px;
     z-index: 20;
     display:none;
 }
 nav ul li{
-    padding:5px;
+    padding:10px 0 0 5px;
 }
 nav ul li a{
     color:#000000;
@@ -909,5 +909,10 @@ footer ul li a:hover{
     }
     .flip--card .flip--card--container,.flip--card--two .flip--card--container--two,.flip--card--three .flip--card--container--three{
         height:70vh;
+    }
+}
+@media screen and (max-width:469px) {
+    .header--image{
+        margin-top:14%;
     }
 }

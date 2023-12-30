@@ -15,6 +15,5 @@ erase.addEventListener("click",()=>{
         ul.classList.remove("open")
         erase.style.display="none"
         bar.style.visibility="visible"
-        ul.style.backgroundColor="white"
         ul.style.display="none"
 })
